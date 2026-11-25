@@ -12,8 +12,6 @@ This repository contains research data associated with the following unpublished
 
 **Scope for Normative Cooperation in Global Artificial Intelligence Governance: An Automated Text Analysis of Normative Documents**
 
-**Authors:** Lu Yao and Zehao Wang (姚璐、王泽昊)
-
 This study examines convergence and divergence in the core concerns, thematic structures and attitudes expressed in normative documents on artificial intelligence (AI) governance, identifying potential areas for normative cooperation in global AI governance. It uses automated text analysis, including word frequency and term frequency–inverse document frequency (TF-IDF) analysis, topic analysis, and sentiment analysis.
 
 The repository makes the analytical materials publicly accessible to support research transparency, empirical verification, and reproducibility. The associated manuscript has not yet been formally published and does not have a DOI.
@@ -74,7 +72,7 @@ If you use the research data in this repository, please cite the dataset using t
 
 Suggested citation:
 
-Yao, L., & Wang, Z. (n.d.). *Research data for Scope for Normative Cooperation in Global Artificial Intelligence Governance: An Automated Text Analysis of Normative Documents* [Data set]. GitHub. https://github.com/CHNAQW/Normative-Cooperation-in-GAIG
+Anonymous. (n.d.). *Research data for Scope for Normative Cooperation in Global Artificial Intelligence Governance: An Automated Text Analysis of Normative Documents* [Data set]. GitHub. https://github.com/CHNAQW/Normative-Cooperation-in-GAIG
 
 Please also cite the associated article once it is formally published.
 
@@ -93,8 +91,6 @@ Questions about the research data may be submitted through [GitHub Issues](https
 ### 仓库简介
 
 本仓库收录研究论文《人工智能全球治理的规范合作空间——基于规范性文件的自动文本分析》的研究数据及相关分析材料。
-
-**作者：姚璐、王泽昊。**
 
 本研究运用词频分析、词频—逆文档频率（TF-IDF）分析、主题分析及情感分析等自动文本分析方法，比较不同治理行为体规范性文件中的核心关切、主题结构及情感取向，探讨人工智能全球治理中的规范合作空间。
 
@@ -156,7 +152,7 @@ Questions about the research data may be submitted through [GitHub Issues](https
 
 建议引用格式：
 
-姚璐, 王泽昊. 《人工智能全球治理的规范合作空间——基于规范性文件的自动文本分析》研究数据集. GitHub. https://github.com/CHNAQW/Normative-Cooperation-in-GAIG
+佚名. 《人工智能全球治理的规范合作空间——基于规范性文件的自动文本分析》研究数据集. GitHub. https://github.com/CHNAQW/Normative-Cooperation-in-GAIG
 
 关联论文正式发表后，请同时引用该论文。
 
