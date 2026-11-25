@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it using the following metadata."
+title: "Research data for Scope for Normative Cooperation in Global Artificial Intelligence Governance: An Automated Text Analysis of Normative Documents"
+type: dataset
+authors:
+  - family-names: Yao
+    given-names: Lu
+  - family-names: Wang
+    given-names: Zehao
+url: "https://github.com/CHNAQW/Normative-Cooperation-in-GAIG"
+license: CC-BY-NC-4.0
+abstract: "Research data for a comparative automated text analysis of 12 AI governance normative documents from China, the United States, Canada, the European Union, the United Nations General Assembly and UNESCO. Data collection cutoff: April 2025. The associated manuscript has not yet been published."
+keywords:
+  - global AI governance
+  - normative cooperation
+  - automated text analysis
+  - topic analysis
+  - sentiment analysis
