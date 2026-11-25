@@ -38,9 +38,9 @@ See [Document_List.csv](Data/Document_List.csv) for document titles, dates and o
 |---|---|
 | `Data/China/`, `Data/US/`, `Data/Canada/`, `Data/EU/`, `Data/UNGA/`, `Data/unesco/` | Original analytical project files for each governance actor |
 | [Data after theme renamed](Data/Data%20after%20theme%20renamed/) | Topic classification project files after topic labels were renamed |
-| [Theme of Each Country.xlsx](Data/Theme%20of%20Each%20Country.xlsx) | Original cross-actor topic comparison workbook |
+| [Theme of Each Country.xlsx](Data/Theme%20of%20Each%20Country.xlsx) | Original cross-actor common-topic comparison workbook |
 | [Document_List.csv](Data/Document_List.csv) | Inventory of 12 sampled normative documents |
-| [Topic_Translation.csv](Data/Topic_Translation.csv) | English reading key for the non-header topic labels in the original comparison workbook, with source cell references |
+| [Topic_Translation.csv](Data/Topic_Translation.csv) | English reading key for the common-topic comparison workbook, with source cell references |
 | [CITATION.cff](CITATION.cff) | Machine-readable dataset citation metadata |
 | [LICENSE](LICENSE) | Creative Commons Attribution–NonCommercial 4.0 International legal text |
 | [ADDITIONAL_PERMISSIONS.md](ADDITIONAL_PERMISSIONS.md) | Additional permissions for academic use |
@@ -118,9 +118,9 @@ Questions about the research data may be submitted through [GitHub Issues](https
 |---|---|
 | `Data/China/`、`Data/US/`、`Data/Canada/`、`Data/EU/`、`Data/UNGA/`、`Data/unesco/` | 各治理行为体的原始分析项目文件 |
 | [Data after theme renamed](Data/Data%20after%20theme%20renamed/) | 完成主题重命名后的主题分类项目文件 |
-| [Theme of Each Country.xlsx](Data/Theme%20of%20Each%20Country.xlsx) | 原始跨行为体主题比较汇总表 |
+| [Theme of Each Country.xlsx](Data/Theme%20of%20Each%20Country.xlsx) | 原始跨行为体共同主题比较汇总表 |
 | [Document_List.csv](Data/Document_List.csv) | 12份纳入研究的规范性文件清单 |
-| [Topic_Translation.csv](Data/Topic_Translation.csv) | 原始主题比较汇总表中非表头主题标签的中英对照及单元格位置 |
+| [Topic_Translation.csv](Data/Topic_Translation.csv) | 共同主题比较汇总表中的主题标签的中英对照及单元格位置 |
 | [CITATION.cff](CITATION.cff) | 机器可读的数据集引用元数据 |
 | [LICENSE](LICENSE) | 知识共享署名—非商业性使用4.0国际许可协议法律文本 |
 | [ADDITIONAL_PERMISSIONS.md](ADDITIONAL_PERMISSIONS.md) | 学术用途的额外授权条款 |
@@ -163,3 +163,23 @@ Questions about the research data may be submitted through [GitHub Issues](https
 研究生因参加学术会议、学术论坛等进行的报告或展示，以及使用者在可获得稿酬或其他出版报酬的学术成果中使用本数据，不受“非商业性使用”条款限制。上述使用仍须履行署名义务。具体内容见 [ADDITIONAL_PERMISSIONS.md](ADDITIONAL_PERMISSIONS.md)。第三方规范性文件适用其各自的权利及使用条款。
 
 有关研究数据的问题，可通过本仓库的 [GitHub Issues](https://github.com/CHNAQW/Normative-Cooperation-in-GAIG/issues) 功能提出。
+
+## Actor-specific topic and sentiment data | 各行为体完整主题及情感数据
+
+The cross-actor common-topic comparison workbook and its English reading key are distinct from the complete topic inventories and sentiment data for individual governance actors. The six actor directories contain the XLSX workbooks, English CSV exports of each worksheet, and bilingual primary-sheet topic labels.
+
+| Governance actor / 治理行为体 | Topics / 主题数 | Directory / 目录 |
+|---|---:|---|
+| China / 中国 | 20 | [China](Data/China/) |
+| United States / 美国 | 17 | [US](Data/US/) |
+| Canada / 加拿大 | 9 | [Canada](Data/Canada/) |
+| European Union / 欧盟 | 31 | [EU](Data/EU/) |
+| United Nations General Assembly / 联合国大会 | 15 | [UNGA](Data/UNGA/) |
+| UNESCO / 联合国教科文组织 | 22 | [unesco](Data/unesco/) |
+| **Total / 合计** | **114** | |
+
+The XLSX workbooks retain numerical values and formulas. The English CSVs contain translations of textual cells and original stored numerical values, including cached formula results; CSVs do not contain executable formulas. The consolidated sentiment workbook is [各国主题态度合集.xlsx](Data/各国主题态度合集.xlsx); its six worksheets are also available in separate English CSVs (`All_Actors_Topic_Sentiment_EN_*.csv`). The primary-sheet bilingual files identify the original worksheet row for each topic. The UNGA inventory follows the latest uploaded workbook. The EU topic label is “生物识别系统限制” (Restrictions on biometric identification systems).
+
+跨行为体共同主题比较汇总表及其中英对照与各行为体完整主题及情感数据分开保存。六个行为体的目录分别收录 XLSX 工作簿、各工作表的英文 CSV 导出文件及主工作表主题中英对照。XLSX 保留数值及公式；CSV 保留原始数值及公式缓存值，并提供文本的英文译文，不包含可执行公式。综合情感数据见 [各国主题态度合集.xlsx](Data/各国主题态度合集.xlsx)，六个工作表分别提供英文 CSV。各行为体主工作表的中英对照注明原始行号。联大采用最新上传的主题表；欧盟主题名为“生物识别系统限制”。
+
+All English translations are AI-generated, credited as ChatGPT 6.2 Sol at the maintainer's request (GPT-6.2). The researchers do not guarantee the accuracy of the English translations; the original Chinese text prevails. 所有英文译文由 ChatGPT（GPT-6.2，按维护者要求署名为 ChatGPT 6.2 Sol）翻译，仅供参考；研究者不保证译文准确性，以中文原始文本为准。
